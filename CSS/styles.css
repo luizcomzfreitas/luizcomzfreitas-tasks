@@ -1,0 +1,44 @@
+body, ul{           
+    margin: 0;
+    padding: 0;
+
+} /* Quando mais de um seletor tiver as mesmas configurações, é possivel colcoar eles juntos usando as mesmas regras separando apenas com a ( , ) */
+
+body{
+    font-family: sans-serif;  /*Este linha altera a fonte que vais er usada no Body do html que o CSS estiver linkado */
+    background-color: #f4f4f4;  /*Este linha atera a cor de fundo do html que o CSS estiver linkado */
+    color: #333;
+}
+
+header{
+    background-color: #007bff;  /*Este linha atera a cor de fundo dp cabeçalho do html que o CSS estiver linkado */
+    color: #fff;
+    padding: 10px;      /*padding refere-se ao espaço interno dentro de um elemento, entre o seu conteúdo e as suas bordas, no caso usando agora 10px (pixels) */
+    text-align: center; /*Este linha atera o alnhamento do texto na seção Header do html que o CSS estiver linkado */
+}
+
+section{
+    width: 80%;
+    margin: 0 auto; /*é usada para centralizar um elemento horizontalmente dentro do seu contêiner. Ela define as margens superior e inferior do elemento como 0 e as margens esquerda e direita como auto*/
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px 0; /*Aqui as configurações do Margin estão para 10px para margem de cima e para baixo e em sequida 0 para a esquerda e direita*/
+    border-radius: 8px; /*é usada para definir o raio dos cantos de um elemento, permitindo que esses cantos sejam arredondados*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Aqui esta sendo definido os valores da sombra que vai aparecer na caixa da seção*/
+    list-style-type: none; /* Agora definindo o tipod e lista que vais er usada como NONE*/
+    padding: 0;
+}
+li{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    position: fixed;  /*ixa um elemento na tela, tornando-o independente do scroll da página*/
+    bottom: 0;
+    width: 100%;
+}
